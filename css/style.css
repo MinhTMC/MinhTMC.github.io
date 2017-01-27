@@ -4,7 +4,10 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+
+
 body{
+  
 	padding:0;
 	margin:0;
 	background:#fff;
@@ -17,6 +20,50 @@ body a{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 	font-weight:400;
+}
+a.blogtitle{
+  font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    font-size: 21px;
+    line-height: 24px;
+    font-family: arial;
+    color: #222;
+    text-transform: uppercase;
+}
+div#u_0_3._2lqg{
+  width: 395px;
+}
+p.paragraph{
+  font-weight: 600;
+    /*--background: #f7f7f7;--*/
+    padding: 10px;
+    margin: -10px;
+    margin-bottom: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+
+}
+p.source1{
+    font-family:Arial,Helvetica,sans-serif;
+   color: #999;
+   display: inline-block;
+    line-height: 1.42857143em;
+        margin-right: 25px;
+        font-size: 14px
+
+}
+a.source2{
+  font-family:Arial,Helvetica,sans-serif;
+   
+   display: inline-block;
+    line-height: 1.42857143em;
+        margin-right: 25px;
+        font-size: 14px
+
 }
 input[type="button"],input[type="submit"]{
 	transition:0.5s all;
@@ -3331,3 +3378,4 @@ figure {
 		margin: 0 0.2em;
 	}
 }
+
